@@ -1,0 +1,32 @@
+const body = document.body;
+//body.append('this is a body', 'BYE');
+//const div = document.createElement('div');
+//const strong = document.createElement('strong');
+//div.innerText = "hello world";
+//div.textContent = "<strong>hello world 2</strong>";
+//div.innerHTML = "<strong>hello world 2</strong>";
+//strong.innerText = 'Hello world3';
+//div.append(strong);
+//body.append(div);
+//const div = document.querySelector('div');
+//console.log(div.textContent); //shows display:none
+//console.log(div.innerText);
+/** --------------------------------------------------*/
+const div = document.querySelector('div');
+const spanHi = document.querySelector('#hi');
+const spanBye = document.querySelector('#bye');
+//spanBye.remove();
+//div.append(spanBye);
+//div.removeChild(spanHi);
+//console.log(spanHi.getAttribute('title'));
+//console.log(spanHi.id);
+//console.log(spanHi.setAttribute('title', 'opaapapa'));
+//console.log(spanHi.id = 'new id');
+//spanHi.removeAttribute('title');
+//console.log(spanHi.dataset);
+//console.log(spanHi.dataset.test);
+//spanHi.dataset.newName = 'hi';
+//spanBye.classList.add('new-class');
+//spanBye.classList.remove('h2');
+//spanBye.classList.toggle('h3', true);
+spanHi.style.backgroundColor = 'red';
